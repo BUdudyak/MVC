@@ -1,0 +1,33 @@
+﻿@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Login Form</title>
+    <link rel="stylesheet" href="~/css/style.css">
+
+</head>
+<body>
+    <!-- partial:index.partial.html -->
+    <div id="bg"></div>
+
+    <form action="/login/check" method="post">
+        <div class="form-field">
+            <input type="text" placeholder="Login / Username" name="login" required />
+        </div>
+
+        <div class="form-field">
+            <input type="password" placeholder="Password" name="password" required />
+        </div>
+
+        <div class="form-field">
+            <button class="btn" type="submit">Log in</button>
+        </div>
+    </form>
+    <!-- partial -->
+
+</body>
+</html>

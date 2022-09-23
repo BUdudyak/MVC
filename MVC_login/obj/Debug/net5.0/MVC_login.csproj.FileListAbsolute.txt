@@ -37,3 +37,5 @@ D:\Git\MVC\MVC_login\obj\Debug\net5.0\MVC_login.pdb
 D:\Git\MVC\MVC_login\obj\Debug\net5.0\MVC_login.genruntimeconfig.cache
 D:\Git\MVC\MVC_login\obj\Debug\net5.0\ref\MVC_login.dll
 D:\Git\MVC\MVC_login\obj\Debug\net5.0\MVC_login.csproj.CopyComplete
+D:\Git\MVC\MVC_login\obj\Debug\net5.0\Razor\Views\Login\Login.cshtml.g.cs
+D:\Git\MVC\MVC_login\obj\Debug\net5.0\Razor\Views\Login\Check.cshtml.g.cs

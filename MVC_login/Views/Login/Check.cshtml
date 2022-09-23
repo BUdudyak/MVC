@@ -1,0 +1,19 @@
+﻿@model MVC_login.Models.UserModel
+@{Layout = null;}
+
+@if (Model.IsLogged)
+{
+    @if (Model.IsAdmin)
+    {
+        <h1>You are Chad</h1>
+    }
+    else
+    {
+        <h1>You are Normie</h1>
+    }
+}
+else
+{
+    <h1>You are mistake</h1>
+    <a href="@Url.Action("Index", "Login")"> Please back to log in again</a>
+}
